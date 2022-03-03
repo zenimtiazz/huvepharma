@@ -1,0 +1,75 @@
+
+.page-nav{
+	margin-bottom: 40px;
+	display: flex;
+	align-items: center;
+}
+.page-nav .back{
+	padding: 6px 15px 4px 10px;
+	font-size: 14px;
+	text-transform: none;
+	color: #A7A7A7;
+	border-color: #A7A7A7;
+	margin-right: 20px;
+}
+.page-nav .back i{
+	margin-right: 10px;
+}
+h1.title img{
+	display: block;
+	max-width: 300px;
+	max-height: 100px;
+	object-fit: contain;
+	object-position: left center;
+}
+.breadcrumbs{
+	display: flex;
+	list-style: none;
+}
+.breadcrumbs li a,
+.breadcrumbs li span{
+	color: #A7A7A7;
+	font-size: 14px;
+	text-decoration: none;
+}
+.breadcrumbs li a:first-child{
+	font-size: 16px;
+}
+.breadcrumbs li a:hover,
+.breadcrumbs li a:focus{
+	color: #07AA51;
+}
+
+.title{
+	margin-left: 70px;
+	margin-bottom: 2px;
+
+}
+.btn{
+	font-family: 'ProximaNova';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.187;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 12px 30px 11px 30px;
+	display: block;
+	width: fit-content;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	-webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+	transition: all 0.4s;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	white-space: nowrap;
+}
+.tcenter .btn{
+	margin-left: auto;
+	margin-right: auto;
+}
