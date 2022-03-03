@@ -1,0 +1,147 @@
+.product-item-content{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'ProximaNova';
+    
+	justify-content:left;
+	margin-left: 60px;
+	margin-right: -1Opx;
+    font-size: large;
+}
+.product-item-content> .col{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 60px;
+}
+.product-item-content> .col2{
+	width: calc(50% - 30px);
+	max-width: 600px;
+}
+.product-item-content> .col1{
+	width: calc(100% - 30px);
+}
+.product-item-content> .col1:last-child{
+	padding-bottom: 0;
+}
+.product-item-content .long-description a{
+	text-decoration: none;
+	color: #07AA51;
+}
+.product-item-content .btn-block{
+	margin-top: 15px;
+}
+.product-item-content .btn-block:first-child{
+	margin-top: 0;
+}
+.product-item-content .btn-block a{
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.btn-block{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+}
+h6{
+	font-size: 18px;
+	line-height: 1.166;
+	letter-spacing: 0.1em;
+	font-weight: 500;
+	color: #07AA51;
+	margin-bottom: 15px;
+    	text-transform: uppercase;
+}
+
+.green-list{
+	list-style: none;
+	margin-bottom: 30px;
+}
+.green-list:last-child{
+	margin-bottom: 0;
+}
+.green-list li{
+	padding-left: 33px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.green-list li:last-child{
+	margin-bottom: 0;
+}
+.green-list li::before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-family: "Font Awesome 5 Pro";
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 20px;
+	color: #07AA51;
+}
+.species{
+	margin-top: 50px;
+}
+h6 + .species{
+	margin-top: 0;
+}
+.species-list{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -7px;
+	margin-right: -7px;
+}
+.species-single{
+	margin-left: 7px;
+	margin-right: 7px;
+}
+.species-single{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background: #07AA51;
+	margin-left: 7px;
+	margin-right: 8px;
+	margin-bottom: 15px;
+	display: block;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+a.species-single:hover,
+a.species-single:focus{
+	background: #1E4445;
+}
+.species-single img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+#product-item .related-products{
+	margin-top: 50px;
+	margin-bottom: 0;
+}
+.product-item-content> .col{
+    margin-bottom: 30px;
+}
+.product-item-content{
+    margin-top: 30px;
+	text-align: left;
+}
+.keybenefits{
+	margin-left: -70px;
+}
+.composition{
+	margin-left: 110px;
+
+}
+.com,.pf,.productforms{
+	margin-left: 110px;
+
+}
