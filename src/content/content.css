@@ -20,6 +20,9 @@
 .product-item-content> .col1{
 	width: calc(100% - 30px);
 }
+.sum{
+	margin-top: 10px;
+}
 .product-item-content> .col1:last-child{
 	padding-bottom: 0;
 }

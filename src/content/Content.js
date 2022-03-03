@@ -42,6 +42,13 @@ const Content = () => {
             <div className="species-single">
               <Species3 />
             </div>
+            <div className="species-single">
+              <Species3 />
+            </div>
+            <div className="species-single">
+              <Species3 />
+            </div>
+
           </div>
         </div>
         <div className="btn-block">
