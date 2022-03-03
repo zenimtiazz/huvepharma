@@ -2,9 +2,6 @@
     text-align: left;
     margin-left: 90px;
     font-size: 20px;
-    margin-top: 4px;
-    font-size: 24px;
-    font-weight: 200;
 }
 .long-description{
     top: 917px;
@@ -29,4 +26,80 @@
 	padding-right: 100px;
 	margin-left: 10px;
 	justify-content: start;
+}
+.pr-logo-single{
+	position: relative;
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.pr-logo-single img{
+	display: block;
+	width: 75%;
+	height: 75%;
+	object-fit: contain;
+	padding: 20px;
+	margin: auto;
+}
+.pr-logo-hover{
+	position: absolute;
+	width: 69%;
+	height: 65%;
+	top: 1;
+	left: 45;
+	background: rgba(30, 68, 69, 0.8);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+	padding: 24px;
+}
+.pr-logo-single:hover .pr-logo-hover,
+.pr-logo-single:focus .pr-logo-hover{
+	opacity: 1;
+	visibility: visible;
+}
+.pr-logo-hover a {
+	color: #ffffff;
+}
+ .rp{
+	 padding-bottom: 2px;
+     margin-top: -24
+ }
+ .list-block{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -10px;
+	margin-right: -10px;
+    margin-top: -22px;
+}
+.list-block .lcol{
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.list-block .lcol1{
+	width: calc(100% - 20px);
+}
+.list-block .lcol2{
+	width: calc(50% - 20px);
+}
+.list-block .lcol4{
+	width: calc(25% - 20px);
+}
+.list-block .lcol3{
+	width: calc(33.333333333% - 20px);
+}
+h2{
+    margin-top: 39px;
+
+    color: black;
+
 }
