@@ -1,0 +1,37 @@
+#product-form {
+  background: #f8f8f8;
+  padding: 90px 0;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+#product-form .form-title {
+  margin-bottom: 65px;
+}
+#product-form h2 {
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+}
+
+.content-section {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.mincontainer {
+  max-width: 1020px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.somedetail {
+  text-align: center;
+}
+.somedetail h1.title::before,
+.somedetail h2.title::before,
+.somedetail h3.title::before {
+  left: calc(50% - 25px);
+}
+.form-block {
+  background: #fff;
+}
