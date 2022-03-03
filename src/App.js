@@ -1,5 +1,6 @@
 import './App.css';
 import Back from './back/Back';
+import Content from './content/Content';
 import Topbar from './topbar/Topbar';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Topbar />
       <Back  />
+      <Content />
     </div>
   );
 }
