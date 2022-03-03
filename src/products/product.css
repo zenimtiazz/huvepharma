@@ -1,0 +1,32 @@
+.ld,.related-products{
+    text-align: left;
+    margin-left: 90px;
+    font-size: 20px;
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 200;
+}
+.long-description{
+    top: 917px;
+    width: 1380px;
+    height: 116px;
+	margin-right: 60;
+}
+.long-descripti{
+	margin-left: 60px;
+	text-justify: auto;
+	text-align: center;
+}
+.col col1{
+    top: 887px;
+    left: 800px;
+    width: 1080px;
+    height: 146px;
+    opacity: 1;
+	margin-left: 60px;
+}
+.para{
+	padding-right: 100px;
+	margin-left: 10px;
+	justify-content: start;
+}

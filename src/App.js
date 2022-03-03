@@ -1,6 +1,7 @@
 import './App.css';
 import Back from './back/Back';
 import Content from './content/Content';
+import Product from './products/Product';
 import Topbar from './topbar/Topbar';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Topbar />
       <Back  />
       <Content />
+      <Product />
     </div>
   );
 }
