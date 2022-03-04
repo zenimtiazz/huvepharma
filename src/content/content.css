@@ -58,13 +58,13 @@ h6{
 	letter-spacing: 0.1em;
 	font-weight: 500;
 	color: #07AA51;
-	margin-bottom: 15px;
+      margin-top: 20px;
     	text-transform: uppercase;
 }
 
 .green-list{
 	list-style: none;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 .green-list:last-child{
 	margin-bottom: 0;
@@ -138,7 +138,8 @@ a.species-single:focus{
 	text-align: left;
 }
 .keybenefits{
-	margin-left: -70px;
+	margin-top: 20px;
+	margin-left: -35px;
 }
 .composition{
 	margin-left: 110px;

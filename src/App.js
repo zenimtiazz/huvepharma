@@ -2,6 +2,7 @@ import './App.css';
 import Back from './back/Back';
 import Content from './content/Content';
 import Form from './Form/Form';
+import Formm from './form2/Form';
 import Product from './products/Product';
 import Topbar from './topbar/Topbar';
 

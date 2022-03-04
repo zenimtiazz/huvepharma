@@ -35,3 +35,16 @@
 .form-block {
   background: #fff;
 }
+.max-w-lg {
+  max-width: 60rem;
+}
+form.w-full.max-w-lg.justify-center.bg-white.rounded-lg.h-full {
+
+  left: 270px;
+  width: 780px;
+  height: 316px;
+
+}
+.flex items-center {
+top: 200px;
+}

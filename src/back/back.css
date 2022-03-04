@@ -43,7 +43,7 @@ h1.title img{
 
 .title{
 	margin-left: 70px;
-	margin-bottom: 0px;
+	margin-bottom: 2px;
 
 }
 .btn{
@@ -75,5 +75,5 @@ h1.title img{
 }
 .min-container{
     margin-left: 70px;
-    margin-top: -50px;
+    margin-top: -40px;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Check from "./Check";
 import "./content.css";
 import Species1 from "./species1";
 import Species2 from "./species2";
@@ -11,6 +12,7 @@ const Content = () => {
         <h6 className="sum">summary</h6>
         <div className="summary-intro">
           <p>
+            <br />
             Hostazym&reg; P is the fastest and most effective phytase on the
             market, giving the highest phosphorus matrix values and the highest
             savings on the cost of inorganic phosphate sources while minimizing
@@ -22,11 +24,11 @@ const Content = () => {
         <h6>Key Benefits</h6>
         <div className="keybenefits">
           <ul className="green-list">
-            <li>✅ &nbsp; Feed cost savings</li>
+          <li> ✔ Feed cost savings</li>
 
-            <li>✅ &nbsp;Improvement in performance</li>
+            <li> ✔ Improvement in performance</li>
 
-            <li>✅ &nbsp;Reducing environmental impact</li>
+            <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✔ Reducing environmental impact</p>
           </ul>
         </div>
         <div className="species">
@@ -60,11 +62,13 @@ const Content = () => {
       </div>
       <div className="col col2">
         <h6 className="com">Composition</h6>
+        <br />
         <div className="composition">
           <p>6-phytase derived from E. coli</p>
         </div>
         <h6 className="pf">product form</h6>
         <div className="productforms">
+          <br />
           <ul className="point-list">
             <li>Coated</li>
             <li>Granular</li>

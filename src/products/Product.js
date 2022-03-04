@@ -8,6 +8,7 @@ const Product = () => {
         <h6 className="ld">Long Description</h6>
         <div className="long-descripti">
           <p className="para">
+            <br />
             Hostazym® P is an E.coli derived 6-phytase, produced by the yeast
             Pichia pastoris in a submerged fermentation process. Hostazym® P has
             been developed by researchers of the Cornell university in the USA
@@ -25,8 +26,9 @@ const Product = () => {
       </div>
 
       <div className="related-products">
-        <h2 className="rp">Related products</h2>
-        <div className="list-block pr-logo-list">
+      <h3 class="text-4xl font-serif leading-normal mt-3 mb-0 text-blueGray-800">
+  Related Products
+</h3>        <div className="list-block pr-logo-list">
           <div className="pr-logo-single lcol lcol4">
             <img src="/med2.png" alt="sav" />
             <div class="pr-logo-hover">
