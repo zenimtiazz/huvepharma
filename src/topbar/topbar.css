@@ -21,12 +21,12 @@
 .header-menu, .max-container{
 	display: flex;
 	align-items: center;
-	padding-top: 15px;
+	padding-top: 5px;
 	padding-bottom: 15px;
-   max-width: 100%;
+   max-width: 90%;
    }
 .header-menu .logo{
-	flex-basis: 220px;
+	flex-basis: 120px;
 	flex-shrink: 0;
 }
 .header-menu .logo img{
