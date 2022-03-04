@@ -36,11 +36,12 @@
   background: #fff;
 }
 .max-w-lg {
-  max-width: 60rem;
+  max-width: 70rem;
+ 
 }
 form.w-full.max-w-lg.justify-center.bg-white.rounded-lg.h-full {
 
-  left: 270px;
+  left: 450px;
   width: 780px;
   height: 316px;
 

@@ -30,7 +30,7 @@ export default function Form() {
  
  <input class="appearance-none bg-transparent border-none w-full text-gray-400 mr-3 py-2 px-5 justify-around leading-normal focus:outline-none justify-around" type="text" placeholder="Questions* " />    
    </div>
-   <div class="flex mt-6 justify-center">
+   <div class="flex mt-8 justify-center">
   <label class="flex items-center text-gray-400">
     <input type="checkbox" class="form-checkbox" />
     <span class="ml-2">I agree to the <span class="text-green-600">privacy policy</span></span>
